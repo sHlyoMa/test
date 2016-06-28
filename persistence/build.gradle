@@ -1,0 +1,39 @@
+group 'com.enya.test'
+version '1.0'
+
+apply plugin: 'java'
+
+defaultTasks 'clean', 'build'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    flatDir dirs: 'lib'
+}
+
+configurations {
+    releaseJars
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
+    compile group: 'org.eclipse.persistence', name: 'javax.persistence', version: '2.1.1'
+}
+
+jar {
+    manifest.attributes 'Main-Class': 'com.enya.test.persistence.Test'
+//    'Class-Path': configurations.compile.files.collect {"$it.name"}.join(' ')
+    from configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+//    into('') {
+//        println "Added: " + configurations.compile.collect { File file -> file.name }
+//        from configurations.compile
+//}
+}
+
+task my {
+    group 'Custom tasks'
+    description 'My first task'
+    doLast { println('Hello') }
+
+}
