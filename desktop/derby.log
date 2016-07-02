@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Thu Jun 30 12:31:26 EEST 2016:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0155-a0a6-12cc-000017d74a18 
-on database directory C:\ProjectFiles\MyProjects\desktop\derbydb with class loader sun.misc.Launcher$AppClassLoader@33909752 
-Loaded from file:/C:/ProjectFiles/MyProjects/desktop/build/libs/desktop-1.0.jar
+Sat Jul 02 22:06:06 EEST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0155-ad00-e8e4-000005abd7b0 
+on database directory C:\Users\Enya\Documents\Projects\test\desktop\derbydb with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/C:/Users/Enya/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.12.1.1/75070c744a8e52a7d17b8b476468580309d5cd09/derby-10.12.1.1.jar
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_71-b15
-user.dir=C:\ProjectFiles\MyProjects\desktop
+java.runtime.version=1.8.0_91-b15
+user.dir=C:\Users\Enya\Documents\Projects\test\desktop
 os.name=Windows 10
 os.arch=amd64
 os.version=10.0
