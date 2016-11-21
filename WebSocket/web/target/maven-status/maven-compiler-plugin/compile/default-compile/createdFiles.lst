@@ -1,0 +1,4 @@
+com\enya\test\web\ChatMessage.class
+com\enya\test\web\ChatMessageDecoder.class
+com\enya\test\web\ChatEndpoint.class
+com\enya\test\web\ChatMessageEncoder.class

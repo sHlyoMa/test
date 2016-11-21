@@ -2,10 +2,14 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="TR" uuid="7694747c-1e29-4bbe-83d5-151016df4d8d">
+      <database-info product="PostgreSQL" version="9.5.0" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>postgres</user-name>
-      <schema-pattern>TR.pg_catalog TR.public</schema-pattern>
-      <default-schemas>TR.public</default-schemas>
+      <introspection-scope>TR:pg_catalog,public</introspection-scope>
+      <resolve-scope>TR:public</resolve-scope>
     </data-source>
   </component>
 </project>
